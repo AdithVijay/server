@@ -11,7 +11,7 @@ const serverless = require('serverless-http');
 app.use(cookieParser());
 
 app.use(cors({
-    origin: 'https://shop-com-wekt.vercel.app/', // Change this to your frontend's URL if different
+    origin: 'https://shop-com-wekt.vercel.app', // Change this to your frontend's URL if different
     credentials: true,
 }));
 app.use(express.json());
